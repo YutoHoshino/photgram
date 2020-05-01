@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(27, 27, 27, 0.397);
+  height: 70px;
+  position:fixed;
+  width: 100%;
+  z-index: 1;
+  .container {
+    margin-top: 0;
+  }
+  &__brand {
+    height: 50px;
+    width: 150px;
+    background-size: 130px;
+    margin-top: 15px;
+  }
+  &__mainLogo {
+    background-repeat: no-repeat;
+    background-image: image-url("logo.png");
+  }
+  &-nav {
+    & > li {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+      .commonNavIcon {
+        height: 24px;
+        width: 24px;
+        background-size: 22px !important;
+        background-repeat: no-repeat;
+      }
+      .profile-icon {
+        background-image: image-url("parts3.png");
+      }
+    }
+  }
+}

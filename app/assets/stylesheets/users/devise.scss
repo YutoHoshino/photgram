@@ -1,0 +1,75 @@
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 90%;
+  padding: 100px 75px 100px;
+  display: block;
+}
+
+.devise-card {
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.4);
+  border-radius: 50px;
+  background: #fff;
+}
+
+.form-wrap{
+  max-width: 400px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.logo-img {
+  background-image: image-url("logo.png");
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+  background-size: 200px!important;
+  margin-bottom: 0;
+}
+
+.form-control {
+  border: 1px solid #dcdfe6;
+  font-size: inherit;
+}
+
+.devise-link {
+  text-align: center;
+  margin: 16px 0;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 75px 0;
+  }
+  .devise-card {
+    background-color: #fafafa;
+  }
+}
+
+.form-group_image {
+  display: flex;
+}
+
+.span-image-name {
+  width: 300px;
+  font-size: 12px;
+  background: rgb(46, 46, 46);
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.fa-camera {
+  font-size:  20px;
+}
+
