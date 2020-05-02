@@ -3,6 +3,11 @@ Rails.application.routes.draw do
     controllers: { registrations: 'registrations' } 
 
   root 'posts#index'
+
+  namespace :posts do
+    resources :searches, only: :index
+  end
+
   resources :users, only: [:show]
   
   resources :posts, only: [:index, :new, :create, :show, :destroy] do

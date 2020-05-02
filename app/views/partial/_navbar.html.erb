@@ -1,8 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
+    <div class="collapse" id="navbarSupportedContent">
     <%= link_to "", root_path, class: "navbar__brand navbar__mainLogo" %>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-md-auto align-items-center">
+      <%# 検索 %>
+      <%= form_with(url: posts_searches_path, local: true, method: :get, class: "search-form") do |form| %>
+        <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-button" %>
+        <%= form.submit "", class: "search-btn" %>
+      <% end %>
+      <%# 検索 %>
+      <ul class="navbar-nav align-items-center">
         <li>
           <%= link_to "投稿", new_post_path, class: "btn btn-primary" %>
         </li>

@@ -7,6 +7,12 @@
   z-index: 1;
   .container {
     margin-top: 0;
+    .collapse {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-around;
+    }
   }
   &__brand {
     height: 50px;
@@ -35,4 +41,38 @@
       }
     }
   }
+}
+
+.search-form {
+  background-color: white;
+  width:300px;
+  height: 30px;
+  border: 1px rgba(27, 27, 27, 0.397) solid;
+
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-button {
+  border: none;
+  width: 200px;
+  height: 20px;
+  margin: auto 0;
+  border-radius: 40px;
+  font-size: 17px;
+  margin-left: 18px;
+}
+
+.search-btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 10%;
+  background-position: center;
+  background-size: auto 90%;
+  background-repeat: no-repeat;
+  background-image: image-url("parts10");
+  margin: auto 0;
+  margin-right: 18px;
 }
