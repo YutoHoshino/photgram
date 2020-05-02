@@ -7,6 +7,12 @@
   z-index: 1;
   .container {
     margin-top: 0;
+    .collapse {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-around;
+    }
   }
   &__brand {
     height: 50px;
