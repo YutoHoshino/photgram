@@ -6,7 +6,7 @@ ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
 # Use mysql as the database for Active Record
-gem 'sqlite3', '~>1.3.6'
+gem 'sqlite3', '~>1.3.6', group: :development
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -67,3 +67,4 @@ gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem 'font-awesome-sass'
 gem 'kaminari'
+gem 'pg', group: :production
