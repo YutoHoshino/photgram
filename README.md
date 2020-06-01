@@ -1,10 +1,14 @@
-# README
+# Instagramクローンアプリ
+[![Image from Gyazo](https://i.gyazo.com/7241550bc1898df30c2d0ecd5fbecabc.gif)](https://gyazo.com/7241550bc1898df30c2d0ecd5fbecabc)
 
-デプロイ先: https://photogram2020.herokuapp.com/
+# サイトの訪問
+URL: https://photogram2020.herokuapp.com/
 
-# 概要
-Instagram風の写真投稿SNSを作成する
+ID: test@gmail.com
 
+Pass: 1234567
+
+# 機能一覧
 - Ruby on Railsにて開発。
 - HTML/CSS/Bootstrapを使用して、実際のInstagramを意識したデザインを適用。
 - 画像の投稿・編集・投稿一覧表示・削除機能を実装。
