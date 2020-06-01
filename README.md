@@ -1,5 +1,5 @@
 # Instagramクローンアプリ
-[![Image from Gyazo](https://i.gyazo.com/7241550bc1898df30c2d0ecd5fbecabc.gif)](https://gyazo.com/7241550bc1898df30c2d0ecd5fbecabc)
+[![Image from Gyazo](https://i.gyazo.com/5a75584dd39749ebda5b72ea45f340df.jpg)](https://gyazo.com/5a75584dd39749ebda5b72ea45f340df)
 
 # サイトの訪問
 URL: https://photogram2020.herokuapp.com/
